@@ -9,6 +9,7 @@ module.exports = {
       'dark': '#0C0C0C',
       'secondary': '#5F5F5F',
       'light': '#FFFFFF',
+      'tosca' : '#3B6F66',
     },
     extend: {
       fontFamily: {

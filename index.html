@@ -35,21 +35,21 @@
       </div>
       <div class="nav-link">
         <ul class="flex flex-row gap-x-8 items-center">
-          <a href="#profile"><li>About</li></a>
-          <a href="#services"><li>Services</li></a>
-          <a href="#portfolio"><li>Portfolio</li></a>
-          <a href="#contact"><li>Contact</li></a>
+          <a href="#profile" class="hover:text-tosca"><li>About</li></a>
+          <a href="#services" class="hover:text-tosca"><li>Services</li></a>
+          <a href="#portfolio" class="hover:text-tosca"><li>Portfolio</li></a>
+          <a href="#contact" class="hover:text-tosca"><li>Contact</li></a>
         </ul>
       </div>
     </nav>
     <section id="profile" class="max-w-6xl mx-auto py-12">
       <div class="flex flex-col items-center justify-center gap-y-7">
         <img
-          src="./src/images/profile.png"
+          src="./src/images/profile-1.jpg"
           alt=""
-          class="max-w-[100px] -mb-2"
+          class="max-w-[100px] -mb-2 rounded-full bg-cover"
         />
-        <h3 class="text-xl">Hi! I’m Mia ✌🏻</h3>
+        <h3 class="text-xl">Hi! I’m Bagas ✌🏻</h3>
         <h1 class="text-5xl text-center leading-tight">
           Website design, app,<br />
           and developer.
@@ -62,12 +62,12 @@
         <div class="flex flex-row mt-2 gap-x-[45px]">
           <a
             href=""
-            class="bg-dark rounded-3xl py-3 px-7 text-light text-center"
+            class="bg-dark rounded-3xl py-3 px-7 text-light text-center hover:bg-tosca"
             >Hire Me</a
           >
           <a
             href=""
-            class="flex flex-row gap-x-4 bg-light rounded-3xl py-3 px-7 text-dark text-center"
+            class="flex flex-row gap-x-4 bg-light rounded-3xl py-3 px-7 text-dark text-center hover:text-tosca"
           >
             Download CV
             <svg
@@ -102,6 +102,7 @@
         </div>
       </div>
     </section>
+    
     <section id="services" class="max-w-6xl mx-auto py-20 flex flex-row justify-between">
       <div class="flex flex-col py-10 gap-y-[60px]">
         <div class="flex flex-row gap-x-8">
@@ -256,7 +257,47 @@
         </div>
       </div>
     </section>
-    <section class="education"></section>
+
+    <section class="education max-w-6xl mx-auto py-20">
+      <div class="flex flex-col gap-y-5 justify-center items-center">
+        <span class="text-lg">Education</span>
+        <h3 class="text-[42px]">My Education</h3>
+      </div>
+      <div class="grid grid-cols-2 mt-12">
+        <div class="grid grid-rows-3 gap-y-28">
+          <div class="flex flex-col">
+            <p class="text-xl">Tokyo University</p>
+            <p class="text-lg text-secondary">4 years (2019-2022)</p>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-xl">Oxim Studio Intership</p>
+            <p class="text-lg text-secondary">3 Months (2021)</p>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-xl">Freelancer</p>
+            <p class="text-lg text-secondary">(Then-Now)</p>
+          </div>
+        </div>
+        <div class="grid grid-rows-3 gap-y-[84px]">
+          <div class="flex flex-col gap-y-7">
+            <p class="text-xl">Informatic Engineering</p>
+            <p class="text-lg text-secondary">Studying Computer Science at Tokyo University opens up a world of 
+              <br> unparalleled opportunities for academic and personal growth.</p>
+          </div>
+          <div class="flex flex-col gap-y-7">
+            <p class="text-xl">Informatic Engineering</p>
+            <p class="text-lg text-secondary">Studying Computer Science at Tokyo University opens up a world of 
+              <br> unparalleled opportunities for academic and personal growth.</p>
+          </div>
+          <div class="flex flex-col gap-y-7">
+            <p class="text-xl">Informatic Engineering</p>
+            <p class="text-lg text-secondary">Studying Computer Science at Tokyo University opens up a world of 
+              <br> unparalleled opportunities for academic and personal growth.</p>
+          </div>
+        </div>
+      </div>  
+    </section>
+
     <section id="portfolio" class="max-w-6xl mx-auto py-20 flex flex-col">
       <div class="gap-y-5 mb-6">
         <span class="text-lg">Portfolio</span>
@@ -309,7 +350,29 @@
       </div>
     </section>
 
-    <button id="scrollToTopBtn" class="fixed bottom-8 right-8 bg-dark text-light py-2 px-2 rounded-full cursor-pointer transition-all  duration-500 ease-in-out opacity-0">
+    <footer id="Contact" class="bg-dark py-20 text-light">
+      <div class="max-w-6xl mx-auto flex flex-col gap-y-32">
+          <p class="text-4xl leading-tight">Have an Idea?<br>
+          <span class="underline decoration-light">Let’s talk about it</span></p>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-col gap-y-7">
+              <p class="text-2xl">bagamincollab@gmail.com</p>
+              <p class="text-lg text-secondary">Marunouchi, 100-8994,<br>
+                Chiyoda-ku, Tokyo. Japan</p>
+            </div>
+            <div class="grid grid-rows-2 grid-cols-3 gap-x-40 gap-y-12">
+              <a href="" class="text-xl hover:text-tosca">Linkedln</a>
+              <a href="https://www.instagram.com/bagzcode/" class="text-xl hover:text-tosca">Instagram</a>
+              <a href="https://medium.com/@bagasmiftahunaim" class="text-xl hover:text-tosca">Medium</a>
+              <a href="https://github.com/BagasMiftahun" class="text-xl hover:text-tosca">Github</a>
+              <a href="https://www.youtube.com/channel/UC9yuSGKFP5x-cqIKbiJdaIQ" class="text-xl hover:text-tosca">Youtube</a>
+              <a href="https://www.upwork.com/freelancers/~0170ad435379213da1" class="text-xl hover:text-tosca">Upwork</a>
+            </div>
+          </div>
+      </div>
+    </footer>
+
+    <button id="scrollToTopBtn" class="fixed bottom-8 right-8 bg-dark text-light py-2 px-2 rounded-full cursor-pointer transition-all duration-500 ease-in-out opacity-0 animate-bounce">
       <svg
         class="w-6 h-6"
         fill="none"
@@ -325,10 +388,6 @@
         ></path>
       </svg>
     </button>
-
     <script src="/src/main.js"></script>
   </body>
-  <footer id="Contact">
-    
-  </footer>
 </html>

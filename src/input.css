@@ -6,8 +6,8 @@
     font-family: "averta";
     src: url("./font/AvertaDemoPE-Regular.otf");
 }
-/* @font-face {
-    font-family: AvertaDemoPE-ExtraboldItalic;
-    src: url("./font/AvertaDemoPE-Regular.otf") format("opentype");
-} */
+
+::selection {
+    background: #3B6F66;
+}
 
